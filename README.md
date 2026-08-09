@@ -139,7 +139,7 @@ Per-session, Zsh-like Ctrl+R history search for Nushell.
 
 ## Older stuff
 
-### [gns3util](https://github.com/0xveya/gns3util) — dead
+### [gns3util](https://github.com/0xveya/gns3util) - dead
 
 Tooling for deploying and managing multi-user GNS3 lab environments.
 
