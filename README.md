@@ -56,6 +56,9 @@ Custom memory allocator exploring arenas, allocation strategy, and thread safety
 
 <sub>C · memory · concurrency</sub>
 
+<details>
+<summary>More systems & 42 projects</summary>
+
 ### [42-codexion](https://github.com/0xveya/42-codexion)
 
 Concurrent simulation focused on scheduling, synchronization, and shared resources.
@@ -70,7 +73,7 @@ Concurrent simulation focused on scheduling, synchronization, and shared resourc
 
 ### [A-Maze-ing](https://github.com/Valentins-and-Veyas-42-group-projects/A-Maze-ing)
 
-42 group project with Valentin implementing maze generation, solving, and terminal visualization.
+Maze generation, solving, and terminal visualization.
 
 <sub>Python · algorithms · group project</sub>
 
@@ -80,14 +83,16 @@ Concurrent simulation focused on scheduling, synchronization, and shared resourc
 
 <sub>Python · group project · work in progress</sub>
 
-<details>
-<summary>More 42 projects</summary>
+### [push_swap](https://github.com/Valentins-and-Veyas-42-group-projects/push_swap)
 
-* [push_swap](https://github.com/Valentins-and-Veyas-42-group-projects/push_swap)
+<sub>C · algorithms · group project</sub>
 
 </details>
 
 ## Python Libraries
+
+<details>
+<summary>Small typed Python libraries</summary>
 
 Small libraries extracted from patterns I kept reusing across projects.
 
@@ -111,7 +116,12 @@ Small SQLite layer using typed read and transaction callbacks with automatic com
 
 Dataclass-driven CLI framework with typed arguments, nested commands, generated help, and parse errors.
 
+</details>
+
 ## Developer Tooling
+
+<details>
+<summary>Neovim, Nushell & other dev tools</summary>
 
 ### [dogshitnorm.nvim](https://github.com/0xveya/dogshitnorm.nvim)
 
@@ -123,15 +133,16 @@ Neovim integration for `sqlc` workflows.
 
 ### [nushell-hist-thing](https://github.com/0xveya/nushell-hist-thing)
 
-Small utility that adds a per-session, Zsh-like Ctrl+R history search to Nushell.
+Per-session, Zsh-like Ctrl+R history search for Nushell.
+
+</details>
 
 ## Older stuff
 
-### [gns3util](https://github.com/0xveya/gns3util) - dead
+### [gns3util](https://github.com/0xveya/gns3util) — dead
 
 Tooling for deploying and managing multi-user GNS3 lab environments.
 
 I stopped working on it after running into limitations with GNS3. Some of the ideas eventually led to [tethux](https://github.com/tethux/tethux).
 
 <sub>Go · GNS3 · networking</sub>
-
