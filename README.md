@@ -127,6 +127,10 @@ Dataclass-driven CLI framework with typed arguments, nested commands, generated 
 
 Neovim tooling around 42 formatting and workflow checks.
 
+### [go-mono-repo](https://github.com/0xveya/go-mono-repo)
+
+Neovim plugin for scoping file search, grep, symbols, and route handlers to individual Go monorepo entrypoints.
+
 ### [sqlc.nvim](https://github.com/0xveya/sqlc.nvim)
 
 Neovim integration for `sqlc` workflows.
