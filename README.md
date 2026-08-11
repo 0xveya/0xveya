@@ -100,6 +100,11 @@ Small libraries extracted from patterns I kept reusing across projects.
 
 Typed `Result` and `Option` values for explicit error handling.
 
+### [typed-concurrency](https://github.com/0xveya/typed-concurrency)
+
+Typed structured concurrency with Go-ish `asyncio` ergonomics: task groups,
+channels, threads, and process-pool work.
+
 ### [python-crimes](https://github.com/0xveya/python-crimes)
 
 Composable pipes, deferred cleanup, and typed-errs-aware pattern matching.
