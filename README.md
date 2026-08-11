@@ -100,6 +100,10 @@ Small libraries extracted from patterns I kept reusing across projects.
 
 Typed `Result` and `Option` values for explicit error handling.
 
+### [python-crimes](https://github.com/0xveya/python-crimes)
+
+Composable pipes, deferred cleanup, and typed-errs-aware pattern matching.
+
 ### [typed-file-io](https://github.com/0xveya/typed-file-io)
 
 Typed text and JSON I/O with validation and callback-based writers.
