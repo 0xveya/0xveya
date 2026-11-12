@@ -1,25 +1,36 @@
 # 0xveya
 
-I mostly build systems stuff, backend/infrastructure tools, Python libraries, and things for my own dev setup.
+I mostly write Go, C++, and C, building systems stuff, backend/infrastructure tools, and things for my own dev setup, along with Python libraries and the occasional slop web app.
 
 ## Projects
-
-<table>
-<tr>
-<td width="33%" valign="top" align="center">
 
 <img src="./assets/glorp.avif" width="90" alt="tethux logo">
 
 ### [tethux](https://github.com/tethux/tethux)
 
-Network emulation toolkit for building programmable Ethernet topologies across containers, VMs, and physical hosts.
+Early-stage network emulation toolkit for programmable Ethernet topologies across containers, VMs, and physical hosts, with Shitnet endpoints and embedded Dynamips routers.
 
 <sub>Go · Docker/Virtualization · networking · Linux</sub>
 
-</td>
-<td width="33%" valign="top" align="center">
+<img src="./assets/briotap.svg" width="90" alt="briotap icon">
 
-<img src="./assets/ErmGlerm.avif" width="90" alt="go-to-ts logo">
+### [briotap](https://github.com/0xveya/briotap)
+
+Go package browser for reading versioned API docs and source, exploring dependency graphs, and checking licenses and security advisories. Inspired by npmx. [Open the app](https://pkgs.saygex.xyz/).
+
+<sub>SvelteKit · TypeScript · Bun · PostgreSQL</sub>
+
+<img src="./assets/teletext.png" width="90" alt="Teletext icon">
+
+### [ORF Teletext client & archive](https://github.com/0xveya/teletext)
+
+Independent Teletext reader and phone PWA, with a Go collector and a searchable historical archive for reading old pages and exploring text and advertising data. [Open the app](https://autism.saygex.xyz).
+
+<sub>Svelte · TypeScript · Go · PostgreSQL</sub>
+
+
+<details>
+<summary>More web apps</summary>
 
 ### [go-to-ts](https://github.com/0xveya/go-to-ts)
 
@@ -27,22 +38,39 @@ Converts Go type definitions into TypeScript, including structs, aliases, enums,
 
 <sub>Go · TypeScript · Astro</sub>
 
-</td>
-<td width="33%" valign="top" align="center">
-
-<img src="./assets/gleepNerd.avif" width="90" alt="eval-mobile logo">
-
 ### [eval-mobile](https://github.com/0xveya/eval-mobile)
 
 Mobile-friendly interface for working with 42 evaluation slots using the 42 API.
 
 <sub>Svelte · TypeScript · 42 API</sub>
 
-</td>
-</tr>
-</table>
+</details>
 
 ## Systems & 42
+
+### [dynamips-downgrade](https://github.com/tethux/dynamips-downgrade)
+
+Porting and reworking Dynamips' Cisco router emulation in C++23 for Tethux, including a new MIPS64 JIT, guest memory, and device model. The new execution path runs real Cisco IOS through image decompression; further boot support is still in progress. Includes native modules, typed embedding APIs, and Go bindings.
+
+<sub>C++23 · Cisco emulation · MIPS64 · JIT · xmake</sub>
+
+### [shitnet](https://github.com/tethux/shitnet)
+
+Small userspace network stack with Ethernet, ARP, IPv4, and ICMP support, a C API, Go bindings, and an interactive REPL.
+
+<sub>C++23 · Go · networking · xmake</sub>
+
+### [Nuxe](https://github.com/0xveya/Nuxe)
+
+Unfinished C++23 rewrite of a FromSoftware game-data unpacker, focused on faster decryption and extraction on Linux. The rewrite is still local and has not been pushed to the linked fork yet.
+
+<sub>C++23 · native modules · OpenSSL · xmake</sub>
+
+### [sigma-c-crimes](https://github.com/0xveya/sigma-c-crimes)
+
+Guide to my experimental C23 ecosystem: [sigma_libft](https://github.com/0xveya/sigma_libft), [sigma_rt](https://github.com/0xveya/sigma_rt), and [sigma-malloc](https://github.com/0xveya/sigma-malloc). Bounded data, ownership experiments, macros, and small composable libraries.
+
+<sub>C23 · systems · learning experiments</sub>
 
 ### [42-rag-against-the-machine](https://github.com/0xveya/42-rag-against-the-machine)
 
@@ -52,7 +80,7 @@ Local RAG system for searching source-code repositories with Tree-sitter chunkin
 
 ### [sigma-malloc](https://github.com/0xveya/sigma-malloc)
 
-Custom memory allocator exploring arenas, allocation strategy, and thread safety.
+Experimental allocator library with slabs, buddy allocation, arenas, and ownership diagnostics.
 
 <sub>C · memory · concurrency</sub>
 
@@ -149,6 +177,12 @@ Neovim integration for `sqlc` workflows.
 Per-session, Zsh-like Ctrl+R history search for Nushell.
 
 </details>
+
+### [evil_intra_scraper](https://github.com/0xveya/evil_intra_scraper)
+
+Explore 42 project evaluation data with OAuth, streamed results, and cached API responses.
+
+<sub>Svelte · TypeScript · Valkey · 42 API</sub>
 
 ## Older stuff
 
